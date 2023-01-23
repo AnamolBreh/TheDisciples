@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheDisciples</title>
+    <link rel="icon" href="images/6e616801fb1c1a4c86ca9534b81b2f78_w200.gif" type="image/gif/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/56b66fe296.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="rules.html">RULES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>TheDisciples Server</h1>
+            <p>This is a minecraft community server.<br> Join it to play with your friends and have some quality time
+                here.
+            </p>
+            <a href="https://discord.gg/AyNQUDPw5A" target="_main" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+
+    <!------- Gamemodes -------->
+    <section class="Gamemodes">
+        <h1>About Gamemodes</h1>
+        <p>We gonna have 3 Gamemodes in starting that would be:</p>
+
+        <div class="row">
+
+            <div class="game-col">
+                <h3>1. Survival</h3>
+                <p>In this Gamemode, there would be simple gameplay. But there would be a lot of features like economy,
+                    Custom enchantments etc.</p>
+            </div>
+            <div class="game-col">
+                <h3>2. Bedwars</h3>
+                <p>As most of you would be aware about what Bedwars is. Here you have to break other players bed and
+                    survive till last.</p>
+            </div>
+            <div class="game-col">
+                <h3>3. Lifesteal</h3>
+                <p>This Gamemode is similar to Survival but here when you die you looses your heart and as soon as you
+                    loose your all hearts then you can't join gamemode again but you can gain more hearts by stealing or
+                    killing other players.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------- sneak-peak ------->
+    <section class="sneak-peak">
+        <h1>Some pics of server:</h1>
+        <p>Some sneak-peak, just chill</p>
+
+        <div class="row">
+            <div class="sp-col">
+                <img src="images/2.png">
+                <div class="layer">
+                    <h3>Birch Blossom</h3>
+                </div>
+            </div>
+            <div class="sp-col">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>Green Jungle</h3>
+                </div>
+            </div>
+            <div class="sp-col">
+                <img src="images/3.png">
+                <div class="layer">
+                    <h3>Plain</h3>
+                </div>
+            </div>
+            <div class="sp-col">
+                <img src="images/4.jpg">
+                <div class="layer">
+                    <h3>Mountain Range</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------- Facilities --------->
+     <section class="facilities">
+      <h1>Our Support Team</h1>
+      <p>We try to provide best Support to you so we have following team</p>
+
+      <div class="row">
+        <div class="facilities-col">
+            <img src="images/7.png">
+            <h3>Helpers</h3>
+            <p>So, Basically helpers helps you at any case you are stuck. They show you right way of doing things and can mute anyone if he/she break rules.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/8.png">
+            <h3>Moderators</h3>
+            <p>So, Basically Moderators or Mod are the one who helps players as well as helps to maintain server. They have powers to kick and ban members. In mod category we have "Jr.Mod" and "Mod".</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/9.png">
+            <h3>Admins</h3>
+            <p>So, Basically Admins are the 2nd top most category of staff team. They manage servers and have all access of all things except some critical things that only founder can have.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-------- Enroll Now --------->
+   <section class="cta">
+    <h1>Enroll for our staff Team</h1>
+    <a href="https://discord.gg/AyNQUDPw5A" target="_main" class="hero-btn">CONTACT US</a>
+
+   </section>
+
+   <!---------Footer--------->
+<section class="footer">
+<h4>About Us</h4>
+<p>Founder of TheDisciples is Mr.Zeus. On this server you will find best community.</br> You can contact us at any time for any kind of help. </p>
+
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube-play"></i>
+    <i class="fa-brands fa-discord"></i>
+
+  
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> by TheDisciples</p>
+</section>
+
+
+
+
+
+
+    <!---------Java Script for toggle menu--------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
